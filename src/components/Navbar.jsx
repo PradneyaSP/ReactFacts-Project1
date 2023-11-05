@@ -10,7 +10,7 @@ export default function Navbar({darkMode , toggleMode}) {
   const toggleDarkColor  = darkMode ? "text-white" : "text-react-toggle-light";
   const circlePosition = darkMode ? "justify-end" : "justify-start";
   return (
-    <nav id="nav" className={`${navColor} flex justify-between h-[15vh] w-[100%] px-6 items-center shadow-md`}>
+    <nav id="nav" className={`${navColor} flex justify-between h-[15vh] w-full px-6 items-center shadow-md`}>
       <div className="react-logo flex justify-around items-center w-52">
         <img src={logo} alt="react-logo" className="h-14"/>
         <h3 className={`text-2xl ${headingColor} font-bold font-inter`}>ReactFacts</h3>

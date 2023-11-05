@@ -7,7 +7,7 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   return (
-    <div className="container">
+    <div>
       <Navbar darkMode = {darkMode} toggleMode = {() => {setDarkMode(prevMode => !prevMode)}}/>
       <MainContent darkMode = {darkMode}/>
     </div>
