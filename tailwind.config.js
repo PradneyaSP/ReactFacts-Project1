@@ -22,10 +22,6 @@ export default {
       poppins: ['Poppins', 'sans'],
       inter: ['Inter', 'sans'],
     },
-    backgroundImage: {
-      'dark': "url('./src/assets/images/react-icon-dark.png')",
-      'light': "url('./src/assets/images/react-icon-light.png')",
-    }
   },
   plugins: [],
 };
